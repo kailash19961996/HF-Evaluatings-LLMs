@@ -31,7 +31,7 @@ def query(payload, model_id, api_key):
 
 
 api_key = st.text_input("Enter your Hugging Face API Key", type ="password")
-st.write("If you don't have one handy, use this API Key: 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")
+st.write("If you don't have one handy, use this API Key: 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")
 user_input = st.text_input("Enter your query:")
 
 if st.button("Submit"):
