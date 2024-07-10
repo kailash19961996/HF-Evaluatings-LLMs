@@ -16,7 +16,7 @@ This Streamlit app allows users to evaluate and compare the performance of vario
 
 ## How to Use
 
-[Click here to try the app](https://litapp.streamlit.app/)
+[Click here to try the app](https://hf-free-llms-eval.streamlit.app/)
 
 1. Enter your Hugging Face API key (or use the provided one)
 2. Type your query and submit to see how different models respond
