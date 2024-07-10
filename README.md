@@ -12,9 +12,11 @@ This Streamlit app allows users to evaluate and compare the performance of vario
   - Starcoder
 - User-friendly interface for entering queries
 - Side-by-side comparison of model outputs
-- Easy-to-use with a provided API key or your own
+- Easy to use with a provided API key or your own
 
 ## How to Use
+
+[Click here to try the app](https://litapp.streamlit.app/)
 
 1. Enter your Hugging Face API key (or use the provided one)
 2. Type your query and submit to see how different models respond
