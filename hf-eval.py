@@ -3,8 +3,7 @@ import requests
 
 st.markdown("""
 <div style='text-align: center;'>
-<h1> Hugging Face - free models Evaluation <h1>     
-</div>
+<h1> Hugging Face - free models Evaluation <h1> 
 """, unsafe_allow_html=True)
 
 model_id = ["meta-llama/Meta-Llama-3-8B-Instruct", "mistralai/Mixtral-8x7B-Instruct-v0.1", "openai-community/gpt2", "google/gemma-7b", "bigcode/starcoder"]
