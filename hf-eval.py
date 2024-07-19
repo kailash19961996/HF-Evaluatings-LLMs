@@ -4,6 +4,14 @@ import requests
 st.markdown("""
 <div style='text-align: center;'>
 <h1> Hugging Face - free models Evaluation <h1> 
+<i> Available models for evaluation: </i> 
+            \n ---------------------------
+            \n meta/Meta-Llama-3-8B-Instruct 
+            \n mistralai/Mixtral-8x7B-Instruct-v0.1 
+            \n openai/gpt2 
+            \n google/gemma-7b 
+            \n bigcode/starcoder
+            \n ---------------------------
 """, unsafe_allow_html=True)
 
 model_id = ["meta-llama/Meta-Llama-3-8B-Instruct", "mistralai/Mixtral-8x7B-Instruct-v0.1", "openai-community/gpt2", "google/gemma-7b", "bigcode/starcoder"]
