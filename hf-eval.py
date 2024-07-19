@@ -9,6 +9,24 @@ st.markdown("""
 
 model_id = ["meta-llama/Meta-Llama-3-8B-Instruct", "mistralai/Mixtral-8x7B-Instruct-v0.1", "openai-community/gpt2", "google/gemma-7b", "bigcode/starcoder"]
 
+linkedin = "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/linkedin.gif"
+github =   "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/gitcolor.gif"
+Youtube =  "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/371907120_YOUTUBE_ICON_TRANSPARENT_1080.gif"
+email =    "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/emails33.gif"
+website =  "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/www.gif"
+
+coll1,coll2,coll3 = st.columns(3)
+with coll2:
+    st.write(
+        f"""
+            <div style='display: flex; align-items: center;'>
+            <a href = 'https://kailashsubramaniyam.com/'><img src='{website}' style='width: 35px; height: 35px; margin-right: 25px;'></a>
+            <a href = 'https://www.youtube.com/@kailashbalasubramaniyam2449/videos'><img src='{Youtube}' style='width: 28px; height: 28px; margin-right: 25px;'></a>
+            <a href = 'https://www.linkedin.com/in/kailash-kumar-balasubramaniyam-62b075184'><img src='{linkedin}' style='width: 35px; height: 35px; margin-right: 25px;'></a>
+            <a href = 'https://github.com/kailash19961996'><img src='{github}' style='width: 30px; height: 30px; margin-right: 25px;'></a>
+            <a href = 'mailto:kailash.balasubramaniyam@gmail.com''><img src='{email}' style='width: 31px; height: 31px; margin-right: 25px;'></a>
+        </div>""", unsafe_allow_html=True,)
+            
 st.markdown("""
 <div style='text-align: center;'>
 <i> Available models for evaluation: </i> 
@@ -21,7 +39,7 @@ st.markdown("""
             \n ---------------------------
 </div>
 """, unsafe_allow_html=True)
-    
+
 
 def query(payload, model_id, api_key):
     API_URL = f"https://api-inference.huggingface.co/models/{model_id}"
@@ -53,3 +71,9 @@ if st.button("Submit"):
                 st.error(f"An error occurred: {str(e)}")
     else:
         st.warning("Please enter both the API key and a prompt.")
+
+st.markdown("""
+<div style='text-align: center;'>
+    Built by <a href="https://kailashsubramaniyam.com/">Kai</a>. Like this? <a href="https://kailashsubramaniyam.com/contact">Hire me!</a>
+</div>
+""", unsafe_allow_html=True)
