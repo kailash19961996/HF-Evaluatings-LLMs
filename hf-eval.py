@@ -6,7 +6,6 @@ st.markdown("""
 <h1> Hugging Face - free models Evaluation </h1> 
 <i> Available models for evaluation: </i> 
             \n ---------------------------
-            \n meta-llama/Meta-Llama-3.1-8B (NEW)
             \n meta/Meta-Llama-3-8B-Instruct 
             \n mistralai/Mixtral-8x7B-Instruct-v0.1 
             \n openai/gpt2 
@@ -15,7 +14,7 @@ st.markdown("""
             \n ---------------------------
 """, unsafe_allow_html=True)
 
-model_id = ["meta-llama/Meta-Llama-3.1-8B", "meta-llama/Meta-Llama-3-8B-Instruct", "mistralai/Mixtral-8x7B-Instruct-v0.1", "openai-community/gpt2", "google/gemma-7b", "bigcode/starcoder"]
+model_id = ["meta-llama/Meta-Llama-3-8B-Instruct", "mistralai/Mixtral-8x7B-Instruct-v0.1", "openai-community/gpt2", "google/gemma-7b", "bigcode/starcoder"]
 
 linkedin = "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/linkedin.gif"
 github =   "https://raw.githubusercontent.com/kailash19961996/icons-and-images/main/gitcolor.gif"
