@@ -4,6 +4,7 @@ import requests
 st.markdown("""
 <div style='text-align: center;'>
 <h1> Hugging Face - free models Evaluation </h1> 
+<i> An app that evaluates free Hugging Face language models by generating text responses based on user queries.</i> 
 <i> Available models for evaluation: </i> 
             \n ---------------------------
             \n meta/Meta-Llama-3-8B-Instruct 
