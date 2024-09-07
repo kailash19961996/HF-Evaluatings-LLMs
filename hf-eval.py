@@ -1,5 +1,7 @@
 import streamlit as st
 import requests
+import os
+import streamlit.components.v1 as components
 
 # App header
 def spline_component(url, width=150, height=90):
