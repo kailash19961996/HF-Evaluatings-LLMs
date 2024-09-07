@@ -12,7 +12,7 @@ with col1:
     spline_component("https://lottie.host/embed/c723a9ba-2211-4763-8577-5ef32f97a869/yNF4aB95zv.json")
 
 with col2:
-    st.title("Hugging Face - free models Evaluation")
+    st.title("FreeModelEval")
     
 st.markdown("""
 <div style='text-align: center;'>
