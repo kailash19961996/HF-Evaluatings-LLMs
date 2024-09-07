@@ -1,10 +1,26 @@
 import streamlit as st
 import requests
 
+# App header
+def spline_component(url, width=150, height=90):
+    components.iframe(url, width=width, height=height)
+
+col1, col2 = st.columns([1, 3])
+with col1:
+    spline_component("https://lottie.host/embed/c723a9ba-2211-4763-8577-5ef32f97a869/yNF4aB95zv.json")
+
+with col2:
+    st.title("Hugging Face - free models Evaluation")
+    
 st.markdown("""
 <div style='text-align: center;'>
-<h1> Hugging Face - free models Evaluation </h1> 
-<i> An app that evaluates free Hugging Face language models by generating text responses based on user queries.</i> 
+     <i>"An app that evaluates free Hugging Face language models by generating text responses based on user queries."<i>
+     <h4>90-second Demo</h4>
+</div>
+""", unsafe_allow_html=True)
+
+st.markdown("""
+<div style='text-align: center;'>
 <i> Available models for evaluation: </i> 
             \n ---------------------------
             \n meta/Meta-Llama-3-8B-Instruct 
